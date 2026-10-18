@@ -16,7 +16,7 @@ Working this way, I ship whole products as a solo developer.
 |---------|---------------|
 | [**Włóczykij**](https://github.com/KacperCelejewski/kacper_explores): AI trip planner | Full product with real users in mind: Stripe one-off payments + subscriptions with signed webhooks, streaming LLM output (Gemini), flight-API caching and cost tracking, 13 SQL migrations. Next.js · TypeScript · Supabase · Vercel |
 | [**Hybrid Fitness Analyzer**](https://github.com/KacperCelejewski/hybrid-fitnesse-analyzer): training-load platform | Polyglot microservices: Spring Boot core + Python/FastAPI analytics engine (TRIMP, session-RPE load models) + React, Docker Compose, GitHub Actions CI |
-| 🚧 **Real-time fraud scoring** *(in progress)* | Scoring payment events as they stream in: LightGBM with time-based validation, a decision threshold set by the cost of fraud vs. false declines, SHAP reason codes, shadow mode. Python · FastAPI · AWS (Kinesis, ECS Fargate, DynamoDB, S3) · CDK |
+| 🚧 [**Real-time fraud scoring**](https://github.com/KacperCelejewski/fraud-scoring) *(spec phase)* | Scoring payment events as they stream in: LightGBM with time-based validation, a decision threshold set by the cost of fraud vs. false declines, SHAP reason codes, shadow mode. Python · FastAPI · AWS (Kinesis, ECS Fargate, DynamoDB, S3) · CDK |
 
 #### 🧰 Stack
 
